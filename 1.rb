@@ -3,8 +3,8 @@
 # multiples of 3 or 5 below 1000.
 
 def sum_multiples(toStop, multiple) 
-    n = (toStop-1) / multiple
-    n * (n+1) / 2 * multiple
+    n = (toStop - 1) / multiple
+    n * (n + 1) / 2 * multiple
 end
 
 ans = sum_multiples(1000, 3) + sum_multiples(1000, 5) - sum_multiples(1000, 15)
